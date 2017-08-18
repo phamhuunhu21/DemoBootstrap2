@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 15px;
+    background: #fdfdfd;
+    font-family: "Open Sans", Tahoma, Arial, Sans-Serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+form {
+    margin: 0
+}
+a {
+	color: #333; 
+    cursor: pointer
+}
+a, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #0076a1;
+}
+input, input:focus {
+    outline: none
+}
+#container .container {
+    max-width: 960px;
+    height: auto;
+}
+body,h1,h2,h3,h4,p,a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.menu1 ul{
+  position: absolute;
+  z-index: 999;
+}
+
+#menu li{
+  cursor: pointer;
+}
+
+.break{
+  clear: both;
+  height: 10px;
+  width: 100%;
+  margin:auto;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.break90{
+  clear: both;
+  height: 10px;
+  width: 90%;
+  margin:auto;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.space20{
+  height: 20px;
+  width: 100%;
+}
+
+
+.row-item{
+  padding-left:15px;
+}
+
+.border-left{
+  border-left: 1px solid #EEEEEE;
+}
+
+.border-right{
+  border-right: 1px solid #EEEEEE;
+}
+
+a{
+  color:black;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+footer .row .col-md-12{
+  text-align: center;
+}
+
+.myheader{
+  background-color: #337AB7;
+  color:white;
+}
+
+.clear{
+  clear:both;
+}
+.row{
+  margin-right: 0px!important;
+  margin-left: 0px!important
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #edeff2;
+}
+.navbar-inverse .navbar-brand {
+    color: #edeff2;
+    text-transform: uppercase;
+}
+
+
+ /* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+
+}
+
